@@ -1,0 +1,50 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+    cursor:crosshair;
+    color:whitesmoke;
+   /* alternative background */
+    /* background-image: url("https://www.csaimages.com/pix/ARCH/V/851046_WP.JPG");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: none; */
+}
+
+h1 {
+    color: rgb(73, 31, 153);
+    font-family: Hind;
+    font-style: oblique;
+    border: 7px solid rgb(46, 41, 41);
+    border-radius: 47px;
+    border-bottom-width: 0px;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.friend {
+    background-color: rgb(110, 18, 110);
+    border-top: 0px solid black;
+    border-bottom: 25px solid black;
+    border-radius: 75px;
+    font-family: Hind;
+    font-style: italic;
+}
+
+button {
+    width: 100px;
+    height: 37px;
+    background-color: rgb(139, 51, 240);
+    color: white;
+    font-family:hind;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 75px;
+    border-bottom: 3px solid whitesmoke;
+    border-top: 0px solid black;
+}
+
+button:hover {
+    cursor:grab;
+    color: orange;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
